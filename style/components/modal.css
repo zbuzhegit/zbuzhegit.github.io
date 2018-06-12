@@ -113,17 +113,17 @@
 }
 	@media screen and (max-width: 5120px){
 		.modal__inner {
-			width: 500px;
+			width: 420px;
 		}
 	}
 @media screen and (max-width: 2560px){
 	.modal__inner {
-		width: 500px;
+		width: 420px;
 	}
 }
 	@media screen and (max-width: 1600px) {
 		.modal__inner{
-			width: 500px;
+			width: 420px;
 		}
 	}
 @media screen and (max-width: 600px){
