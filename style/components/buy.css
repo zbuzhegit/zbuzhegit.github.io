@@ -32,7 +32,8 @@
     }
       .buy__form_info {
         margin-top: 120px;
-        font-size: 18px
+        font-size: 14px;
+        font-family: 'Open sans'
       }
       .buy__form_title {
         font-family: 'Roboto Slab', serif;
@@ -104,7 +105,7 @@
     }
       .buy__form_info {
         margin-top: 120px;
-        font-size: 18px
+        font-size: 14px
       }
       .buy__form_title {
         font-family: 'Roboto Slab', serif;
