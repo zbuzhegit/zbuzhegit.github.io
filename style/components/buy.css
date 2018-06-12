@@ -1,6 +1,9 @@
 .prosto {
   display: none
 }
+.buy {
+  background-color: #f7f8f9;
+}
 @media screen and (max-width: 5120px){
   .buy__form {
     display: flex;

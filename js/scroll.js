@@ -8,8 +8,6 @@ function alignView(MyLocation,position){
 		return (position - 70 ) ;
 	}
 	return MyLocation;
-
-
 }
 function scrollWindow(id){
 	var element = document.getElementById(id);

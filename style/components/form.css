@@ -109,7 +109,15 @@
         text-decoration: none;
         width: 220px;
         margin-left: 20px;
-        padding: 5px
+        padding: 5px;
+        font-family: 'Arvo';
+        font-size: 18px;
+        color: #313131;
+      }
+      .form__box_input1 input{
+        color: #313131;
+        font-size: 18px;
+        font-family: 'Arvo'
       }
       .form__box_input input:focus::placeholder {
         opacity: 0;

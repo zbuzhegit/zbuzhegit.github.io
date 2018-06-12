@@ -20,13 +20,34 @@
       <div class="header__logo" onclick="scrollWindow('main')">
         <img src="images/Logo.svg">
       </div>
-      <div class="header__nav">
+      <!-- <div class="header__nav">
         <div class="nav__link" onclick="scrollWindow('program')">Программа</div>
         <div class="nav__link" onclick="scrollWindow('bonus')">Бонусы</div>
         <div class="nav__link" onclick="scrollWindow('author')">Преподаватель</div>
         <div class="nav__link" onclick="scrollWindow('rewievs')">Отзывы</div>
         <div class="nav__link" onclick="scrollWindow('contact')">Контакты</div>
-      </div>
+      </div> -->
+      <div class="m1 menu">
+    <div id="menu-center">
+        <div class="header__nav">
+            <div class="nav__link"><a class="nav__link_a" href="#program">Программа</a>
+
+            </div>
+            <div class="nav__link"><a class="nav__link_a" href="#bonus">Бонусы</a>
+
+            </div>
+            <div class="nav__link"><a class="nav__link_a" href="#author">Преподаватель</a>
+
+            </div>
+            <div class="nav__link"><a class="nav__link_a" href="#rewievs">Отзывы</a>
+
+            </div>
+            <div class="nav__link"><a class="nav__link_a" href="#contact">Контакты</a>
+
+            </div>
+        </div>
+    </div>
+</div>
     </div>
   </header>
   <section class="main" id="main">
@@ -247,6 +268,53 @@
       </div>
     </div>
   </section>
+  <section class="buy">
+    <div class="program__title">Наша цена</div>
+    <div class="rewievs__description">
+        За 2 месяца обучения <br> и полного погружения в сферу дизайна</div>
+    <div class="buy__form">
+      <!-- <div class="buy__form_free">
+        <div class="buy__form_img">
+          <img src="images/Crown.svg">
+        </div>
+        <div class="buy__form_info">Цена</div>
+        <div class="buy__form_title">Бесплатно</div>
+        <div class="buy__form_description">
+          <div class="dot"></div>
+          <div class="buy__form_desc">4 недели обучения</div>
+        </div>
+        <div class="buy__form_description">
+          <div class="dot"></div>
+          <div class="buy__form_desc">Сертификат</div>
+        </div>
+        <div class="buy__form_description">
+          <div class="dot"></div>
+          <div class="buy__form_desc">Стипендия</div>
+        </div>
+        <div class="buy__form_btn">
+          <button class="btn buy__btn" onclick="toggleModal('show')" >ЗАПИСАТЬСЯ</button>
+        </div>
+      </div> -->
+      <div class="buy__form_coin">
+        <div class="buy__form_img buy__form_imgl">
+          <img src="images/Like.svg">
+        </div>
+        <div class="buy__form_info">Цена</div>
+        <div class="buy__form_title">79 900 ₸</div>
+        <div class="buy__form_description">
+          <div class="dot dot-yellow"></div>
+          <div class="buy__form_desc">8 недель обучения</div>
+        </div>
+        <div class="buy__form_description">
+          <div class="dot dot-yellow"></div>
+          <div class="buy__form_desc">Сертификат</div>
+        </div>
+        <div class="buy__form_btn">
+          <button class="btn buy__btn-red" onclick="toggleModal('show')">ЗАПИСАТЬСЯ</button>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="bonus" id="bonus">
     <div class="bonus__title">Приятные бонусы</div>
     <div class="bonus__description">
@@ -366,117 +434,6 @@
       </div>
     </div>
   </section>
-<!--   <section class="condition">
-    <div class="program__title">Чтобы <br class="e"> поступить <br class="e"> на грант</div>
-    <div class="program__description condition__description">
-      И стать обладателем <br class="e"> стипендии, тебе надо <br class="e"> подходить <br> по всем 4 <br class="e"> критерим. Посмотри, <br class="e"> подходишь ли ты
-    </div>
-    <div class="program__wrapper">
-      <div class="first__column first__column-condition">
-        <div class="program__link program__link-condition">
-          <div class="program__link_img">
-            <img src="images/widgets/icon13.svg">
-          </div>
-          <div class="condition__link_title">Прописка в г. Алматы</div>
-          <div class="condition__link">временная или <br> постоянная</div>
-        </div>
-        <div class="program__link program__link-condition">
-          <div class="program__link_img">
-            <img src="images/widgets/icon14.svg">
-          </div>
-          <div class="condition__link_title">Отсутствие пенсионных</div>
-          <div class="condition__link">начислений за последние <br>
-            2 месяца</div>
-        </div>
-      </div>
-      <div class="second__column first__column-condition secc">
-        <div class="program__link program__link-condition">
-          <div class="program__link_img">
-            <img src="images/widgets/icon15.svg">
-          </div>
-          <div class="condition__link_title">Наличие диплома</div>
-          <div class="condition__link">вуза/колледжа любой <br> специальности</div>
-        </div>
-        <div class="program__link program__link-condition">
-          <div class="program__link_img">
-            <img src="images/widgets/icon16.svg">
-          </div>
-          <div class="condition__link_title">Наличие ноутбука</div>
-          <div class="condition__link">с программами Adobe <br> Photoshop, Illustrator</div>
-        </div>
-      </div>
-      <div class="condition__btn" onclick="toggleModal('show')">
-        <button class="btn">ОСТАВИТЬ ЗАЯВКУ</button>
-      </div>
-    </div>
-  </section> -->
-   <section class="buy">
-    <div class="program__title">Наша цена</div>
-    <div class="rewievs__description">
-        За 2 месяца обучения <br> и полного погружения в сферу дизайна</div>
-    <div class="buy__form">
-      <!-- <div class="buy__form_free">
-        <div class="buy__form_img">
-          <img src="images/Crown.svg">
-        </div>
-        <div class="buy__form_info">Цена</div>
-        <div class="buy__form_title">Бесплатно</div>
-        <div class="buy__form_description">
-          <div class="dot"></div>
-          <div class="buy__form_desc">4 недели обучения</div>
-        </div>
-        <div class="buy__form_description">
-          <div class="dot"></div>
-          <div class="buy__form_desc">Сертификат</div>
-        </div>
-        <div class="buy__form_description">
-          <div class="dot"></div>
-          <div class="buy__form_desc">Стипендия</div>
-        </div>
-        <div class="buy__form_btn">
-          <button class="btn buy__btn" onclick="toggleModal('show')" >ЗАПИСАТЬСЯ</button>
-        </div>
-      </div> -->
-      <div class="buy__form_coin">
-        <div class="buy__form_img buy__form_imgl">
-          <img src="images/Like.svg">
-        </div>
-        <div class="buy__form_info">Цена</div>
-        <div class="buy__form_title">79 900 ₸</div>
-        <div class="buy__form_description">
-          <div class="dot dot-yellow"></div>
-          <div class="buy__form_desc">8 недель обучения</div>
-        </div>
-        <div class="buy__form_description">
-          <div class="dot dot-yellow"></div>
-          <div class="buy__form_desc">Сертификат</div>
-        </div>
-        <div class="buy__form_btn">
-          <button class="btn buy__btn-red" onclick="toggleModal('show')">ЗАПИСАТЬСЯ</button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="photos">
-    <a href="images/images/4.jpg" class="photos__main" data-fancybox="gallery1">
-      <img src="images/images/4.jpg" >
-    </a>
-    <div class="photos__other">
-      <a href="images/images/3.jpg" class="photos__other_top" data-fancybox="gallery1">
-        <img src="images/images/3.jpg">
-      </a>
-      <div class="photos__other_bot">
-        <a href="images/images/2.jpg" class="photos__bot_first" data-fancybox="gallery1">
-          <img src="images/images/2.jpg">
-        </a>
-        <a href="images/images/1.jpg" class="photos__bot_second" data-fancybox="gallery1">
-          <img src="images/images/1.jpg">
-        </a>
-      </div>
-    </div>
-
-
-  </section>
   <section class="rewievs" id="rewievs">
     <div class="program__title">Отзывы наших <br class="t"> студентов</div>
     <div class="rewievs__description">
@@ -521,6 +478,26 @@
         <img src="images/widgets/right.png">
       </div>
     </div>
+  </section>
+  <section class="photos">
+    <a href="images/images/4.jpg" class="photos__main" data-fancybox="gallery1">
+      <img src="images/images/4.jpg" >
+    </a>
+    <div class="photos__other">
+      <a href="images/images/3.jpg" class="photos__other_top" data-fancybox="gallery1">
+        <img src="images/images/3.jpg">
+      </a>
+      <div class="photos__other_bot">
+        <a href="images/images/2.jpg" class="photos__bot_first" data-fancybox="gallery1">
+          <img src="images/images/2.jpg">
+        </a>
+        <a href="images/images/1.jpg" class="photos__bot_second" data-fancybox="gallery1">
+          <img src="images/images/1.jpg">
+        </a>
+      </div>
+    </div>
+
+
   </section>
   <section class="works">
     <div class="bonus__title">А вот работы<br class="q"> наших<br class="q"> студентов</div>
@@ -573,6 +550,54 @@
     <div class="bonus__slider_dots works__slider_dot">
     </div>
   </section>
+<!--   <section class="condition">
+    <div class="program__title">Чтобы <br class="e"> поступить <br class="e"> на грант</div>
+    <div class="program__description condition__description">
+      И стать обладателем <br class="e"> стипендии, тебе надо <br class="e"> подходить <br> по всем 4 <br class="e"> критерим. Посмотри, <br class="e"> подходишь ли ты
+    </div>
+    <div class="program__wrapper">
+      <div class="first__column first__column-condition">
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon13.svg">
+          </div>
+          <div class="condition__link_title">Прописка в г. Алматы</div>
+          <div class="condition__link">временная или <br> постоянная</div>
+        </div>
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon14.svg">
+          </div>
+          <div class="condition__link_title">Отсутствие пенсионных</div>
+          <div class="condition__link">начислений за последние <br>
+            2 месяца</div>
+        </div>
+      </div>
+      <div class="second__column first__column-condition secc">
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon15.svg">
+          </div>
+          <div class="condition__link_title">Наличие диплома</div>
+          <div class="condition__link">вуза/колледжа любой <br> специальности</div>
+        </div>
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon16.svg">
+          </div>
+          <div class="condition__link_title">Наличие ноутбука</div>
+          <div class="condition__link">с программами Adobe <br> Photoshop, Illustrator</div>
+        </div>
+      </div>
+      <div class="condition__btn" onclick="toggleModal('show')">
+        <button class="btn">ОСТАВИТЬ ЗАЯВКУ</button>
+      </div>
+    </div>
+  </section> -->
+  
+  
+ 
+  
   <section class="form" id="contact">
     <div class="form__main">
       <div class="form__left forma">
@@ -749,7 +774,7 @@
     </div>
   </section>
 </body>
-<script src="js/scroll.js"></script>
+<!-- <script src="js/scroll.js"></script> -->
 <script src="js/workSlider.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/videoSlider.js"></script>
@@ -761,4 +786,5 @@
 <script src="js/jquery.maskedinput.js"></script>
 <script src="js/validate.js"></script>
 <script src="js/sliders .js"></script>
+<script src="js/scrolling.js"></script>
 </html>

@@ -75,7 +75,10 @@
 	.form__box_inputs input,
 	.form__box_input1s input {
 		margin-left: 0;
-		width: 100%
+		width: 100%;
+		font-family: 'Arvo';
+		font-size: 18px;
+		color: #313131;
 	}
 	.radio {
 		margin-left: 0

@@ -6,7 +6,7 @@
         margin:0 20px
   }
   .works {
-    background-color:  #f7f8fa;
+    background-color:  #fff;
     position: relative;
   }
   .works__slide_author {
@@ -46,7 +46,7 @@
   .bonus__slider_link {
         margin:0 20px
   }
-  .works {background-color:  #f7f8fa;
+  .works {background-color:  #fff;
   position: relative;}
   .works__slide_author {
     height: 80px;
