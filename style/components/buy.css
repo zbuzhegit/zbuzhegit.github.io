@@ -8,7 +8,7 @@
   .buy__form {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px
+    padding-bottom: 120px
   }
     .buy__form_free {
       height: 470px;
@@ -80,7 +80,7 @@
   .buy__form {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px
+    padding-bottom: 120px
   }
     .buy__form_free {
       height: 470px;

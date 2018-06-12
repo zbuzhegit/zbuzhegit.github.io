@@ -114,11 +114,6 @@
         font-size: 18px;
         color: #313131;
       }
-      .form__box_input1 input{
-        color: #313131;
-        font-size: 18px;
-        font-family: 'Arvo'
-      }
       .form__box_input input:focus::placeholder {
         opacity: 0;
         transition: 0.2s;
@@ -134,7 +129,10 @@
         margin-left: 58px;
         margin-bottom: 15px;
         width: 220px;
-        padding: 5px
+        padding: 5px;
+        font-family: 'Arvo';
+        font-size: 18px;
+        color: #313131
       }
       .form__box_info {
         font-family: 'Roboto Slab', serif;

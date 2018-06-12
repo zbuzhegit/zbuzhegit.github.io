@@ -15,10 +15,9 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.fancybox.js"></script>
 <body id="body">
-  <header class="header">
+  <header class="header" id="header">
     <div class="head">
-      <div class="header__logo" onclick="scrollWindow('main')">
-        <img src="images/Logo.svg">
+      <div class="header__logo"><a href="#main"><img src="images/Logo.svg"></a>     
       </div>
       <!-- <div class="header__nav">
         <div class="nav__link" onclick="scrollWindow('program')">Программа</div>
@@ -47,7 +46,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
     </div>
   </header>
   <section class="main" id="main">
@@ -63,7 +62,7 @@
           <button class="btn" onclick="toggleModal('show')">ЗАПИСАТЬСЯ</button>
         </div>
         <div class="info__btn info__btn-right">
-          <button class="btn">ХМ, ИНТЕРЕСНО</button>
+          <a href="#beginner"><button class="btn">ХМ, ИНТЕРЕСНО</button></a>
         </div>
       </div>
     </div>
@@ -71,7 +70,7 @@
       <img src="images/Picture.png">
     </div>
   </section>
-  <section class="beginner">
+  <section class="beginner" id="beginner">
     <div class="beginner__top">
       <div class="top__title">Допустим, ты <br class="begin"> новичок...</div>
       <div class="top__description">
