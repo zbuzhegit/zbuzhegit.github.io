@@ -1,0 +1,71 @@
+.kabi__modal {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  z-index: 270;
+  overflow-y: scroll;
+}
+.kabi__modal::-webkit-scrollbar {
+    display: none;
+}
+.kabiModal__backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+}
+.kabi__img {
+  width: 80%;
+	background-color: #fff;
+	border: 1px solid silver;
+	border-radius: 8px;
+	text-align: center;
+	position: relative;
+	animation: modalShow 0.5s;
+  z-index: 250;
+  bottom: 0
+}
+.kabi__img img {
+  width: 100%;
+}
+.modal__close_img {
+  z-index: 3000;
+  right: 40px;
+  top: 20px;
+  position: fixed;
+  width: 20px;
+  cursor: pointer;
+}
+.modal__close_img img {
+  width: 100%;
+}
+@media screen and (max-width:5120px){
+  .kabi__img {
+    width: 50%;
+  }
+}
+@media screen and (max-width:2560px){
+  .kabi__img {
+    width: 50%;
+  }
+}
+@media screen and (max-widh: 1440px){
+  .kabi__img {
+    width: 80%;
+  }
+}
+@media screen and (max-width:700px){
+  .kabi__img {
+    width: 70%;
+  }
+}
+@media screen and (max-width:454px){
+  .kabi__img{
+    width: 100%;
+  }
+}

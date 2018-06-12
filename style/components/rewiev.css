@@ -1,0 +1,137 @@
+@media screen and (max-width: 5120px){
+  .rewievs__description {
+    font-family: 'Open Sans', sans-serif;
+    color:  #9fa3a7;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto 77px;
+  }
+
+    .rewiev__slider-dot {
+      margin-top: 40px;
+      align-items: center;
+      width: 100px;
+    }
+    .active, .bonus__slider_dot:hover {
+      background-color: #717171;
+    }
+    .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  }
+  .rewiev__slider_btn {
+    cursor: pointer;
+    border: 3px solid #fec730;
+    border-radius: 50%;
+    padding: 5px
+  }
+  .rewiev__small_btns {
+    display: none;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .rewiev__small_left,
+  .rewiev__small_right {
+    margin: 30px 10px 0;
+    border: 3px solid #fec730;;
+    padding: 5px;
+    border-radius: 50%
+  }
+  .bonus__slider_dott {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 3px solid #9fa3a7;
+    margin:  0 auto;
+    cursor: pointer;
+  }
+  .active, .bonus__slider_dott:hover {
+    border: 5px solid #ffc80a;
+    background-color: #ffc80a;
+  }
+  .bonus__slider_video {
+    margin: 0 40px
+  }
+  .t {
+    display: none !important;
+  }
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@media screen and (max-width: 1070px){
+  .rewiev__small_btns {
+    display: flex;
+  }
+  .bonus__slider_video {
+    margin: 0
+  }
+  .rewiev__small_btns{
+    padding-bottom: 120px
+  }
+}
+
+@media screen and (max-width: 700px){
+  .bonus__slider_video {
+    width: 500px
+  }
+}
+@media screen and (max-width: 600px) {
+  .rewievs__description {
+    width: 420px;
+    padding: 0 20px
+  }
+  .bonus__slider_video {
+    margin: 0
+  }
+  .rewies__slides,
+  .bonus__slider_video {
+    width: 100%;
+  }
+  .rewievs__description br {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:425px){
+  .rewievs__description {
+    width: 290px;
+  }
+  .bonus__slider_video {
+    width: 100%;
+  }
+  .bonus__slider_video iframe {
+    width: 100%;
+  }
+  .rewiev__small_btns {
+    padding-bottom: 120px
+  }
+  .t {
+    display: block;
+  }
+  .bonus__video_slider {
+    padding: 0 20px
+  }
+}
+@media screen and (max-width: 320px){
+  .rewievs__description{
+    width: 100%;
+    padding: 0 20px
+  }
+  .bonus__slider_video {
+    width: 100%;
+  }
+}

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Практический курс по основам граф и веб дизайна</title>
+  <link rel="stylesheet" href="style/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/widgets/favicon.jpg" type="image/x-icon" >
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/components/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style/components/jquery.fancybox.css">
+  <script type="text/javascript" src="js/jquery.min.js.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<body id="body">
+  <header class="header">
+    <div class="head">
+      <div class="header__logo" onclick="scrollWindow('main')">
+        <img src="images/Logo.svg">
+      </div>
+      <div class="header__nav">
+        <div class="nav__link" onclick="scrollWindow('program')">Программа</div>
+        <div class="nav__link" onclick="scrollWindow('bonus')">Бонусы</div>
+        <div class="nav__link" onclick="scrollWindow('author')">Преподаватель</div>
+        <div class="nav__link" onclick="scrollWindow('rewievs')">Отзывы</div>
+        <div class="nav__link" onclick="scrollWindow('contact')">Контакты</div>
+      </div>
+    </div>
+  </header>
+  <section class="main" id="main">
+    <div class="main__info">
+      <div class="main__title">
+        Практический курс <br> по основом дизайна
+      </div>
+      <div class="main__description">
+        Практический курс для тех,<br> кто хочет освоить основы <br>графического дизайна и <br> веб-дизайна
+      </div>
+      <div class="main__btn">
+        <div class="info__btn">
+          <button class="btn" onclick="toggleModal('show')">ЗАПИСАТЬСЯ</button>
+        </div>
+        <div class="info__btn info__btn-right">
+          <button class="btn">ХМ, ИНТЕРЕСНО</button>
+        </div>
+      </div>
+    </div>
+    <div class="main__img">
+      <img src="images/Picture.png">
+    </div>
+  </section>
+  <section class="beginner">
+    <div class="beginner__top">
+      <div class="top__title">Допустим, ты <br class="begin"> новичок...</div>
+      <div class="top__description">
+        Который все никак не может <br class="begin"> понять с чего
+        <br> начать этот <br class="begin"> сложный путь, а также
+      </div>
+    </div>
+    <div class="beginner__bot">
+      <div class="bot__link">
+        <div class="link__img">
+          <img src="images/widgets/icon1.svg">
+        </div>
+        <div class="link__title">Жаждущий практики</div>
+        <div class="link__description">Работать над реальными заказами страшно, а ведь хочеться по скорее начать.</div>
+      </div>
+      <div class="bot__link">
+        <div class="link__img">
+          <img src="images/widgets/icon2.svg">
+        </div>
+        <div class="link__title">Запутавшийся в теории</div>
+        <div class="link__description">Материала много, тяжело не <br> затеряться среди сотни <br> туториалов и видео-курсов.</div>
+      </div>
+      <div class="bot__link">
+        <div class="link__img">
+          <img src="images/widgets/icon3.svg">
+        </div>
+        <div class="link__title">Нуждающийся в наставнике</div>
+        <div class="link__description">Кто-то же должен пинать и  <br> показать тонкую грань между <br> шедевром и провалом.</div>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="advantages__main">
+      <div class="advantages__tit">Преимущества</div>
+      <div class="advantages__top">
+        <div class="top__scholarship">
+          <div class="scholarship__img scholar__flex">
+            <img src="images/Picture1.svg">
+          </div>
+          <div class="scholarship__img scholar__none">
+            <img src="images/8.png">
+          </div>
+          <div class="scholarship__info">
+            <div class="scholarship__title">
+              <div class="scholarship__dot scholarship__dot-y"><img src="images/widgets/1.svg"></div>
+              <div class="scholarship__tit">Сертификат</div>
+            </div>
+            <div class="scholarship__description">
+              <!-- Все очень просто, не  <br class="none"> только <br> учись, но и <br class="none"> зарабатывай. <br class="none"> <br>
+              Действительно круто -->
+              Пройдя огонь, воду <br> и медные трубы, вы получите <br> сертификат об окончании обучения.
+            </div>
+          </div>
+        </div>
+        <div class="top__employment">
+          <div class="employment__img">
+            <img src="images/Picture2.svg">
+          </div>
+          <div class="employment__info">
+            <div class="employment__title">
+              <div class="employment__dot scholarship__dot-y"><img src="images/widgets/2.svg"></div>
+              <div class="employment__tit">Трудоустройство</div>
+            </div>
+            <div class="employment__description">
+              Мы готовы взять к себе <br> на работу лучших студентов.<br> Все в твоих руках
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advantages__title">ПРЕИМУЩЕСТВА</div>
+      <div class="advantages__bot">
+        <div class="bot__training">
+          <div class="training__img">
+            <img src="images/Picture3.svg">
+          </div>
+          <div class="training__info">
+            <div class="training__title">
+              <div class="training__dot scholarship__dot-y"><img src="images/widgets/3.svg"></div>
+              <div class="training__tit">Дизайн-активити</div>
+            </div>
+            <div class="training__description">
+              Полное погружение в дизайн. <br> Фильмы, книги, митапы, <br> совместные вылазки
+             <!--  Да, оно бесплатное, если ты  <br> соответствуешь <br class="none"> критериям. -->
+            </div>
+          </div>
+        </div>
+        <div class="bot__portfolio">
+          <div class="portfolio__img">
+            <img src="images/Picture4.svg">
+          </div>
+          <div class="portfolio__info">
+            <div class="portfolio__title">
+              <div class="portfolio__dot scholarship__dot-y"><img src="images/widgets/4.svg"></div>
+              <div class="portfolio__tit">Портфолио</div>
+            </div>
+            <div class="portfolio__description">
+              По окончанию у тебя будет <br class="none"><br> собрано портфолио,  <br class="none"> которое <br> не стыдно <br class="none"> показать.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="program" id="program">
+    <div class="program__title">Программа <br class="no"> обучения</div>
+    <div class="program__description">
+      Хардкор и только хардкор. <br class="non"> 9 недель. Теория и сразу <br class="non"> <br> практика. Думали, в сказку<br class="non"> попали?
+    </div>
+    <div class="program__wrapper">
+      <div class="first__column">
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon4.svg">
+          </div>
+          <div class="program__link_title">Введение в дизайн.
+            <br>
+          Типографика</div>
+        </div>
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon5.svg">
+          </div>
+          <div class="program__link_title">Айдентика и бренд:
+            <br>
+          логотип</div>
+        </div>
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon6.svg">
+          </div>
+          <div class="program__link_title">Айдентика:
+            <br>
+          влияние цвета</div>
+        </div>
+        <div class="first__column_btn" id="first__column_btn" onclick="showSecond()">
+          <button class="btn">ЗАГРУЗИТЬ ЕЩЕ</button>
+        </div>
+      </div>
+
+      <div class="second__column" id="second__column">
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon7.svg">
+          </div>
+          <div class="program__link_title">Общая стилистика <br>
+          в дизайне</div>
+        </div>
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon8.svg">
+          </div>
+          <div class="program__link_title">Создание лендинга.
+            <br>
+          Часть 1</div>
+        </div>
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon9.svg">
+          </div>
+          <div class="program__link_title">Создание лендинга.
+            <br>
+          Часть 2</div>
+        </div>
+        <div class="second__column_btn" id="second__column_btn" onclick="showThird()">
+          <button class="btn">ЗАГРУЗИТЬ ЕЩЕ</button>
+        </div>
+      </div>
+
+      <div class="third__column" id="third__column">
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon10.svg">
+          </div>
+          <div class="program__link_title">Сначала мобильные:
+            <br>
+           правила</div>
+        </div>
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon11.svg">
+          </div>
+          <div class="program__link_title">Ошибки в дизайне:
+            <br>
+            разбор</div>
+        </div>
+        <div class="program__link">
+          <div class="program__link_img">
+            <img src="images/widgets/icon12.svg">
+          </div>
+          <div class="program__link_title">Защита проектов:
+            <br>
+            выступление</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bonus" id="bonus">
+    <div class="bonus__title">Приятные бонусы</div>
+    <div class="bonus__description">
+      Уметь фотошопить не<br class="n"> достаточно, чтобы стать  <br class="n"> успешным
+      <br> дизайнером на <br class="n"> рынке, поэтому мы <br class="n"> подготовили для вас:
+    </div>
+    <div class="bonus__slider">
+      <div class="bonus__slider_btn" onclick="plusSlides(-1)">
+        <img src="images/widgets/left.png">
+      </div>
+
+      <div class="bonus__slides">
+        <div class="bonus__slider_img fade">
+          <div class="slider__img_left">
+            <div class="slider__img_info">Тема:</div>
+            <div class="slider__img_title">
+              Как получить <br> первый заказ
+            </div>
+            <div class="slider__img_description">
+              И правильно выстраивать <br> общение с заказчиком.
+            </div>
+          </div>
+          <div class="slider__img_right">
+            <div class="slider__img_info slider__img-right">Тема:</div>
+            <div class="slider__img_title slider__img_title-right">
+              Оформление портфолио
+            </div>
+            <div class="slider__img_description slider__img_description-right">
+              Чтобы тебя наконец-то <br> взяли на работу мечты.
+            </div>
+          </div>
+        </div>
+        <div class="bonus__slider_img fade">
+          <div class="slider__img_left">
+            <div class="slider__img_info">Тема:</div>
+            <div class="slider__img_title">
+             Как  работать  с заказчиками
+            </div>
+            <div class="slider__img_description">
+              И чтобы не состариться<br> раньше времени
+            </div>
+          </div>
+          <div class="slider__img_right">
+            <div class="slider__img_info slider__img-right">Тема:</div>
+            <div class="slider__img_title slider__img_title-right">  Как составить <br> договор
+            </div>
+
+            <div class="slider__img_description slider__img_description-right">
+               чтобы заработать  и <br> не остаться должным
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bonus__slider_btn bonus__slider-right" onclick="plusSlides(1)">
+        <img src="images/widgets/right.png">
+      </div>
+    </div>
+    <div class="bonus__slider_dots">
+      <div class="bonus__slider_dot" onclick="currentSlide(1)"></div>
+      <div class="bonus__slider_dot" onclick="currentSlide(2)"></div>
+    </div>
+    <div class="bonus__small_btns">
+      <div class="bonus__small_left" onclick="plusSlides(-1)">
+        <img src="images/widgets/left.png">
+      </div>
+      <div class="bonus__small_right" onclick="plusSlides(1)">
+        <img src="images/widgets/right.png">
+      </div>
+    </div>
+
+  </section>
+  <section class="design" id="author">
+    <div class="design__main">
+      <div class="design__info">
+        <div class="design__title">Алмат Курмашев</div>
+        <div class="design__job">Руководитель отдела  дизайна Automato</div>
+        <div class="design__description">
+          В дизайне > 10 лет. Более 100 завершенных проектов. 4 компетенции. Со-учередитель «Automato»
+        </div>
+        <div class="design__author">Автор:</div>
+        <div class="design__author_title">
+          <div class="tir"></div>
+          <div class="design__author_tit">Книга «Digital Imaging with <br class="b"> Photoshop» «Zambak»,<br class="b"> Стамбул, 2013</div>
+        </div>
+        <div class="design__author_description">
+          <div class="tir"></div>
+          <div class="design__author_desc">Онлайн курс «Photoshop. <br class="b"> Кipicпe» Алматы, 2013</div>
+        </div>
+        <div class="design__link">
+          <div class="design__link_img">
+            <a href="https://www.facebook.com/mr.kurmashev" target="_blank"><img src="images/widgets/facebook.svg"></a>
+          </div>
+          <div class="design__link_img">
+            <a href="https://www.behance.net/kurmashev" target="_blank"><img src="images/widgets/behance.svg"></a>
+          </div>
+          <div class="design__link_img">
+            <a href="https://dribbble.com/kurmashev" target="_blank"><img src="images/widgets/dribble.svg"></a>
+          </div>
+          <div class="design__link_img">
+            <a href="https://www.instagram.com/mr.kurmashev/" target="_blank"><img src="images/widgets/instagram.svg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="design__img">
+        <img src="images/almat.svg">
+        <div class="design__border_cloud">
+          <img src="images/text.png">
+          <div class="design__border_img">
+            <img src="images/widgets/2.png">
+          </div>
+          <div class="design__border_text">
+            Решаю дизайн задачи <br> быстро и со вкусом. <br>
+            Но это не точно.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--   <section class="condition">
+    <div class="program__title">Чтобы <br class="e"> поступить <br class="e"> на грант</div>
+    <div class="program__description condition__description">
+      И стать обладателем <br class="e"> стипендии, тебе надо <br class="e"> подходить <br> по всем 4 <br class="e"> критерим. Посмотри, <br class="e"> подходишь ли ты
+    </div>
+    <div class="program__wrapper">
+      <div class="first__column first__column-condition">
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon13.svg">
+          </div>
+          <div class="condition__link_title">Прописка в г. Алматы</div>
+          <div class="condition__link">временная или <br> постоянная</div>
+        </div>
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon14.svg">
+          </div>
+          <div class="condition__link_title">Отсутствие пенсионных</div>
+          <div class="condition__link">начислений за последние <br>
+            2 месяца</div>
+        </div>
+      </div>
+      <div class="second__column first__column-condition secc">
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon15.svg">
+          </div>
+          <div class="condition__link_title">Наличие диплома</div>
+          <div class="condition__link">вуза/колледжа любой <br> специальности</div>
+        </div>
+        <div class="program__link program__link-condition">
+          <div class="program__link_img">
+            <img src="images/widgets/icon16.svg">
+          </div>
+          <div class="condition__link_title">Наличие ноутбука</div>
+          <div class="condition__link">с программами Adobe <br> Photoshop, Illustrator</div>
+        </div>
+      </div>
+      <div class="condition__btn" onclick="toggleModal('show')">
+        <button class="btn">ОСТАВИТЬ ЗАЯВКУ</button>
+      </div>
+    </div>
+  </section> -->
+   <section class="buy">
+    <div class="program__title">Наша цена</div>
+    <div class="rewievs__description">
+        За 2 месяца обучения <br> и полного погружения в сферу дизайна</div>
+    <div class="buy__form">
+      <!-- <div class="buy__form_free">
+        <div class="buy__form_img">
+          <img src="images/Crown.svg">
+        </div>
+        <div class="buy__form_info">Цена</div>
+        <div class="buy__form_title">Бесплатно</div>
+        <div class="buy__form_description">
+          <div class="dot"></div>
+          <div class="buy__form_desc">4 недели обучения</div>
+        </div>
+        <div class="buy__form_description">
+          <div class="dot"></div>
+          <div class="buy__form_desc">Сертификат</div>
+        </div>
+        <div class="buy__form_description">
+          <div class="dot"></div>
+          <div class="buy__form_desc">Стипендия</div>
+        </div>
+        <div class="buy__form_btn">
+          <button class="btn buy__btn" onclick="toggleModal('show')" >ЗАПИСАТЬСЯ</button>
+        </div>
+      </div> -->
+      <div class="buy__form_coin">
+        <div class="buy__form_img buy__form_imgl">
+          <img src="images/Like.svg">
+        </div>
+        <div class="buy__form_info">Цена</div>
+        <div class="buy__form_title">79 900 ₸</div>
+        <div class="buy__form_description">
+          <div class="dot dot-yellow"></div>
+          <div class="buy__form_desc">8 недель обучения</div>
+        </div>
+        <div class="buy__form_description">
+          <div class="dot dot-yellow"></div>
+          <div class="buy__form_desc">Сертификат</div>
+        </div>
+        <div class="buy__form_btn">
+          <button class="btn buy__btn-red" onclick="toggleModal('show')">ЗАПИСАТЬСЯ</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="photos">
+    <a href="images/images/4.jpg" class="photos__main" data-fancybox="gallery1">
+      <img src="images/images/4.jpg" >
+    </a>
+    <div class="photos__other">
+      <a href="images/images/3.jpg" class="photos__other_top" data-fancybox="gallery1">
+        <img src="images/images/3.jpg">
+      </a>
+      <div class="photos__other_bot">
+        <a href="images/images/2.jpg" class="photos__bot_first" data-fancybox="gallery1">
+          <img src="images/images/2.jpg">
+        </a>
+        <a href="images/images/1.jpg" class="photos__bot_second" data-fancybox="gallery1">
+          <img src="images/images/1.jpg">
+        </a>
+      </div>
+    </div>
+
+
+  </section>
+  <section class="rewievs" id="rewievs">
+    <div class="program__title">Отзывы наших <br class="t"> студентов</div>
+    <div class="rewievs__description">
+        Последние из выживших,<br class="t"> которые прошли <br> огонь,<br class="t"> воду и медные трубы
+    </div>
+    <div class="bonus__slider bonus__video_slider">
+      <div class="bonus__slider_btn" onclick="nextSlides(-1)">
+        <img src="images/widgets/left.png">
+      </div>
+
+        <div class="rewies__slides">
+          <div class="bonus__slider_video fade">
+            <iframe width="701" height="350" src="https://www.youtube.com/embed/n940FLH4mQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="bonus__slider_video fade">
+            <iframe width="710" height="350" src="https://www.youtube.com/embed/WD7vqTBsxC0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="bonus__slider_video fade">
+            <iframe width="710" height="350" src="https://www.youtube.com/embed/mfr8vc3Jwyg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="bonus__slider_video fade">
+            <iframe width="710" height="350" src="https://www.youtube.com/embed/Shr3UKUkVpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+
+      <div class="bonus__slider_btn bonus__slider-right" onclick="nextSlides(1)">
+        <img src="images/widgets/right.png">
+      </div>
+    </div>
+    <div class="bonus__slider_dots rewiev__slider-dot">
+      <div class="bonus__slider_dott" onclick="thisSlide(1)"></div>
+      <div class="bonus__slider_dott" onclick="thisSlide(2)"></div>
+      <div class="bonus__slider_dott" onclick="thisSlide(3)"></div>
+      <div class="bonus__slider_dott" onclick="thisSlide(4)"></div>
+    </div>
+    <div class="rewiev__small_btns">
+      <div class="rewiev__small_left" onclick="nextSlides(-1)">
+        <img src="images/widgets/left.png">
+      </div>
+      <div class="rewiev__small_right" onclick="nextSlides(1)">
+        <img src="images/widgets/right.png">
+      </div>
+    </div>
+  </section>
+  <section class="works">
+    <div class="bonus__title">А вот работы<br class="q"> наших<br class="q"> студентов</div>
+    <div class="bonus__description work__description">
+      Самым главным вложением<br class="q"> для нас являются студенты.<br class="q"> По <br> уровню их работ, вы<br class="q"> можете судить наше<br class="q"> качество преподавания
+    </div>
+    <div class="bonus__slides work__slides" id="workSlider">
+
+      <div class="bonus__slider_link">
+          <div class="bonus__slide_img"  onscroll="stopScroll(stop)">
+            <img src="images/Background.jpg" onclick="showModal('alina')">
+          </div>
+          <div class="works__slide_author">
+            Алина Дюсупова
+          </div>
+        </div>
+      <div class="bonus__slider_link">
+        <div class="bonus__slide_img">
+          <img src="images/44.jpg" onclick="showModal('kabi')">
+        </div>
+        <div class="works__slide_author">
+          Кабибулла Оразбек
+        </div>
+      </div>
+      <div class="bonus__slider_link">
+        <div class="bonus__slide_img">
+          <img src="images/Kamilla.jpg" onclick="showModal('kami')">
+        </div>
+        <div class="works__slide_author">
+          Камилла Бекбосынова
+        </div>
+      </div>
+      <div class="bonus__slider_link">
+        <div class="bonus__slide_img">
+          <img src="images/Ernur.jpg" onclick="showModal('ernur')">
+        </div>
+        <div class="works__slide_author">
+          Ернур Башпай
+        </div>
+      </div>
+      <div class="bonus__slider_link">
+        <div class="bonus__slide_img" onclick = "showModal('diana')">
+          <img src="images/5p.jpg">
+        </div>
+        <div class="works__slide_author avtor">
+          Диана Жубанова
+        </div>
+      </div>
+    </div>
+    <div class="bonus__slider_dots works__slider_dot">
+    </div>
+  </section>
+  <section class="form" id="contact">
+    <div class="form__main">
+      <div class="form__left forma">
+        <div class="form__left_title">Оставить заявку</div>
+        <div class="form__left_description">
+          Вы можете долго сомневаться и уйти к конкурентам. но только у нас можно зарабатывать обучаясь.
+        </div>
+        <div class="form__left_info">Для вопросов:</div>
+        <div class="form__left_contact">
+          <div class="form__left_img">
+            <img src="images/widgets/phone.png">
+          </div>
+          <div class="form__left_number">+7 702 732 33 84</div>
+        </div>
+        <div class="form__left_info">Наш адрес:</div>
+        <div class="form__left_contact" style="margin-bottom: 120px">
+          <div class="form__left_img">
+            <img src="images/widgets/home.png">
+          </div>
+          <div class="form__left_number">005059, Алматы
+            Самал-2, дом 58, 10 этаж</div>
+        </div>
+      </div>
+      <div class="form__right">
+        <form class="form__box" id="form">
+          <div class="form__box_title">Заполните форму</div>
+          <div class="form__box_input1">
+            Имя:<input type="text" name="user_name" id="txt" required>
+          </div>
+          <div class="form__box_input">
+            Телефон:<input type="tel" name="user_phone" id="phone" required>
+          </div>
+         <!--  <div class="form__box_info">Выберите тип обучения:</div>
+            <div class="form__box_radio">
+              <input type="radio" name="study" value="Грант" style="cursor: pointer" class="radio"> Грант
+              <input type="radio" name="study" value="Платное" style="cursor: pointer" style="margin-left: 20px" class="radio__right"> Платное обучение
+            </div> -->
+            <div class="form__btn" type="submit" onsubmit="validatephone(phone)">
+              <button class="btn" >ОТПРАВИТЬ</button>
+            </div>
+        </form>
+
+      </div>
+    </div>
+    <div class="form__img">
+      <img src="images/udar.png">
+    </div>
+  </section>
+  <section class="cart">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.0522961108445!2d76.94843535054048!3d43.22936318765014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f1c9207c3ab%3A0x1c9bf24c21291744!2z0KLQntCeICJBdXRvbWF0byI!5e0!3m2!1sru!2skz!4v1528173318897" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="map__cloud"></div>
+  </section>
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__logo">
+      <img src="images/logo.png">
+    </div>
+    <div class="footer__info">
+      (с) 2018 Automato. Все права защищены
+    </div>
+    <div class="footer__link">
+      <div class="footer__link_img">
+        <a href="https://www.facebook.com/mr.kurmashev" target="_blank"><img src="images/widgets/facebook1.svg"></a>
+      </div>
+      <div class="footer__link_img">
+        <a href="https://www.behance.net/kurmashev" target="_blank"><img src="images/widgets/behance1.svg"></a>
+      </div>
+      <div class="footer__link_img">
+        <a href="https://dribbble.com/kurmashev" target="_blank"><img src="images/widgets/dribbble1.svg"></a>
+      </div>
+      <div class="footer__link_img">
+        <a href="https://www.instagram.com/mr.kurmashev/" target="_blank"><img src="images/widgets/instagram1.svg"></a>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <section class="modal" id="modal">
+
+		<div class="modal__backdrop" onclick="toggleModal('hide')"></div>
+    <div class="modal__inner">
+      <form method="POST" id="forma">
+        <div class="close__img" onclick="toggleModal('hide')">
+          <img src="images/cancel-music.svg">
+       </div>
+        <div class="form__box_title form__box_titles">Заполните форму</div>
+        <div class="form__box_input1 form__box_input1s">
+          <input type="text" name="user_name" required placeholder="Ваше имя">
+        </div>
+        <div class="form__box_input form__box_inputs">
+          <input type="tel" name="user_phone" required placeholder="Номер телефона" required pattern="^8|\+7)d{3}\d{7}$" maxlength="15">
+        </div>
+        <!-- <div class="form__box_info form__box_info1 radio">Выберите тип обучения:</div> -->
+         <!--  <div class="form__box_radio form__box_radios radio">
+            <input type="radio" name="study" value="Грант" class="box__left"> Грант
+            <input type="radio" name="study" value="Платное" style="margin-left: 20px"> Платное обучение
+          </div> -->
+          <div class="form__btnn" type="submit" onsubmit="validatephone(phone)">
+            <button class="btn" >ОТРПАВИТЬ</button>
+          </div>
+      </form>
+
+    </div>
+    <!-- <div class="modal__inner">
+			<div class="modal__top">
+			<div class="modal__top_title">
+				Введите данные
+			</div>
+			<div class="modal__top_close" onclick="toggleModal('hide')">
+				<img src="images/close.svg" alt="close">
+			</div>
+		</div>
+		<form action="telegram.php" method="POST" class="modal__bottom">
+			<div class="modal__input">
+				<input type="text" placeholder="Ваше имя" name="user_name" required>
+			</div>
+			<div class="modal__input">
+				<input type="text" placeholder="Ваш номер" name="user_phone" required>
+			</div>
+      <div class="modal__radio">
+        <input type="radio" name="study" value="Грант"> Грант <p></p><p></p>
+        <input type="radio" name="study" value="Платное"> Платное обучение
+      </div>
+			<div class="modal__btn">
+				<button class="btn" type="submit">
+					Отправить
+				</button>
+			</div>
+		</form>
+		</div> -->
+	</section>
+  <section class="alina__modal" id="alinaModal">
+    <div class="alinaModal__backdrop" onclick="showModal('hide')"></div>
+    <div class="alina__img">
+      <div class="modal__close_img" onclick="showModal('hide')">
+        <img src="images/cancel-music.svg" alt="close">
+      </div>
+      <img src="images/Basqar.jpg">
+    </div>
+  </section>
+  <section class="kabi__modal" id="kabiModal">
+    <div class="kabiModal__backdrop" onclick="showModal('hide')"></div>
+    <div class="kabi__img">
+      <div class="modal__close_img" onclick="showModal('hide')">
+        <img src="images/cancel-music.svg" alt="close">
+      </div>
+      <img src="images/kabi.jpg">
+    </div>
+  </section>
+  <section class="kami__modal" id="kamiModal">
+    <div class="kamiModal__backdrop" onclick="showModal('hide')"></div>
+    <div class="kami__img">
+      <div class="modal__close_img" onclick="showModal('hide')">
+        <img src="images/cancel-music.svg" alt="close">
+      </div>
+      <img src="images/Selfie-Box.jpg">
+    </div>
+  </section>
+  <section class="ernur__modal" id="ernurModal">
+    <div class="kamiModal__backdrop" onclick="showModal('hide')"></div>
+    <div class="ernur__img">
+      <div class="modal__close_img" onclick="showModal('hide')">
+        <img src="images/cancel-music.svg" alt="close">
+      </div>
+      <img src="images/Feed-Almaty.jpg">
+    </div>
+  </section>
+ <section class="diana__modal" id="dianaModal">
+    <div class="kamiModal__backdrop" onclick="showModal('hide')"></div>
+    <div class="diana__img">
+      <div class="modal__close_img" onclick="showModal('hide')">
+        <img src="images/cancel-music.svg" alt="close">
+      </div>
+      <img src="images/Car-Master.jpg">
+    </div>
+  </section>
+</body>
+<script src="js/scroll.js"></script>
+<script src="js/workSlider.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/videoSlider.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/showMore.js"></script>
+<script src="js/stopScroll.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/sliders .js"></script>
+</html>

@@ -1,0 +1,209 @@
+.prosto {
+  display: none
+}
+@media screen and (max-width: 5120px){
+  .buy__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px
+  }
+    .buy__form_free {
+      height: 470px;
+      background-color:  #ffc808;
+      margin-right: 20px;
+      color: #fff;
+      text-align: center;
+      width: 320px;
+      border-radius: 6px;
+      position: relative;
+    }
+    .buy__form_coin {
+      height: 470px;
+      background-color: #f9593a;
+      margin-left: 20px;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      width: 320px;
+      border-radius: 6px;
+    }
+      .buy__form_info {
+        margin-top: 120px;
+        font-size: 18px
+      }
+      .buy__form_title {
+        font-family: 'Roboto Slab', serif;
+        color:  #ffffff;
+        font-size: 47.97px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: center;
+        margin: 37px 0 38px 0
+      }
+      .buy__form_description {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 190px;
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50% ;
+        background-color: red;
+        margin-right: 10px
+      }
+      .dot-yellow {
+        background-color: #ffc80a;
+      }
+      .buy__form_desc {
+        font-family: 'Open Sans', sans-serif;
+        color:  #ffffff;
+        font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 23.987px;
+      }
+      .buy__form_img {
+        position: absolute;
+        top: -35px;
+        left: -56px
+      }
+      .buy__form_imgl {
+        position: absolute;
+        top: -35px;
+        left: 55px
+      }
+}
+@media screen and (max-width: 1600px) {
+  .buy__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px
+  }
+    .buy__form_free {
+      height: 470px;
+      background-color:  #ffc808;
+      margin-right: 20px;
+      color: #fff;
+      text-align: center;
+      width: 320px;
+      border-radius: 6px;
+      position: relative;
+    }
+    .buy__form_coin {
+      height: 470px;
+      background-color: #f9593a;
+      margin-left: 20px;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      width: 320px;
+      border-radius: 6px;
+    }
+      .buy__form_info {
+        margin-top: 120px;
+        font-size: 18px
+      }
+      .buy__form_title {
+        font-family: 'Roboto Slab', serif;
+        color:  #ffffff;
+        font-size: 47.97px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: center;
+        margin: 37px 0 38px 0
+      }
+      .buy__form_description {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 190px;
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50% ;
+        background-color: red;
+        margin-right: 10px
+      }
+      .dot-yellow {
+        background-color: #ffc80a;
+      }
+      .buy__form_desc {
+        font-family: 'Open Sans', sans-serif;
+        color:  #ffffff;
+        font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 23.987px;
+      }
+      .buy__form_img {
+        position: absolute;
+        top: -35px;
+        left: -56px
+      }
+      .buy__form_imgl {
+        position: absolute;
+        top: -35px;
+        left: 55px
+      }
+}
+@media screen and (max-width: 840px){
+  .rewievs__description {
+    padding: 0 20px
+  }
+}
+@media screen and (max-width:700px) {
+  .buy__form {
+    display: block
+  }
+  .buy__form_coin,
+  .buy__form_free{
+    margin: 0 auto 75px;
+    height: 500px;
+    padding-top: 20px
+  }
+  .buy__form_title {
+    margin-top: 60px
+  }
+}
+@media screen and (max-width: 425px){
+  .buy__form {
+    display: block
+  }
+  .buy__form_coin,
+  .buy__form_free{
+    margin: 0 auto 75px;
+    height: 500px;
+    padding-top: 20px
+  }
+  .buy__form_title {
+    margin-top: 50px
+  }
+  .prosto {
+    display: block !important;
+  }
+  .rewievs__description br{
+    display: none !important
+  }
+  .buy__form_description {
+    margin-bottom: 5px
+  }
+}
+@media screen and (max-width: 375px){
+  .buy__form_free {
+    padding: 19px;
+  }
+}
+@media screen and (max-width: 320px){
+  .buy__form_free,
+  .buy__form_coin {
+    width: 280px;
+  }
+  .buy__form_img {
+    left: -80px
+  }
+  .buy__form_imgl {
+    left: 33px
+  }
+  .buy__form_title {
+    font-size: 45px;
+  }
+}

@@ -1,0 +1,311 @@
+.none {
+  display: none !important;
+}
+.advantages {
+  background-color: #ee543d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.advantages__main {
+  width: 1440px;
+}
+.advantages__tit {
+  display: none;
+}
+.advantages__top{
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 80px
+}
+.advantages__bot{
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+.advantages__title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 55px
+}
+.scholarship__dot,
+.training__dot,
+.portfolio__dot,
+.employment__dot {
+  width: 18px;
+  height: 18px;
+}
+.scholarship__dot img,
+.training__dot img,
+.portfolio__dot img,
+.employment__dot img{
+  width: 18px;
+  height: 18px;
+}
+.scholar__flex {
+  display: none;
+}
+.top__scholarship {
+  display: flex;
+  margin-right: 120px;
+}
+.top__employment {
+  display: flex;
+}
+.bot__training{
+  display: flex;
+  margin: 0px 200px 0 160px;
+}
+.bot__portfolio{
+  display: flex;
+}
+.scholarship__title,
+.portfolio__title,
+.employment__title,
+.training__title {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 20px
+}
+.scholarship__tit,
+.portfolio__tit,
+.employment__tit,
+.training__tit{
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fec730;
+  margin-left: 20px
+}
+.scholarship__description,
+.portfolio__description,
+.employment__description,
+.training__description{
+  color: #ffffff;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+margin-left: 60px
+}
+  .scholar__none {
+    display: none;
+  }
+  .scholar__flex {
+    display: flex;
+  }
+  .advantages__bot,
+  .advantages__top {
+    width: 100%;
+    justify-content: center;
+  }
+  .bot__training {
+    margin: 0 80px 0 80px
+  }
+  .scholar__flex {
+    display: none
+  }
+  .scholar__none {
+    display: block;
+  }
+  @media screen and (max-width: 1600px){
+    .advantages__top {
+      justify-content: left
+    }
+
+  }
+@media screen and (max-width: 1440px){
+  .advantages {
+    width: 100%
+  }
+  .advantages__main {
+    width: 100%;
+  }
+  .scholar__none {
+    display: none;
+  }
+  .scholar__flex {
+    display: flex;
+  }
+  .advantages__bot,
+  .advantages__top {
+    width: 100%;
+  }
+  .bot__training {
+    margin: 0 0 0 80px
+  }
+  .advantages__top {
+    justify-content: left
+  }
+  .scholar__flex {
+    display: flex;
+  }
+  .scholar__none {
+    display: none
+  }
+  .bot__training {
+    margin: 0 0 0 0
+  }
+}
+@media screen and (max-width: 1254px){
+  .scholarship__description br,
+  .employment__description br,
+  .training__description br,
+  .portfolio__description br{
+      display: none;
+  }
+}
+@media screen and (max-width: 1253px){
+  .top__scholarship {
+    margin-right: 5px
+  }
+  .bot__training {
+    margin: 0 0 0 0
+  }
+  .training__description {
+    width: 200px
+  }
+  .employment__description {
+    width: 250px
+  }
+  .scholarship__description {
+    width: 250px;
+  }
+  .portfolio__description {
+    width: 250px
+  }
+  /* .bot__portfolio {
+    margin-left: -45px
+  } */
+  .top__employment {
+    margin-left: 80px
+  }
+}
+@media screen and (max-width: 1070px){
+  .bot__training {
+    margin: 0 -35px 0 80px;
+  }
+  .top__scholarship {
+    margin-right: 41px
+  }
+  .advantages__title {
+    font-size: 100px
+  }
+  .employment__img,
+  .training__img,
+  .portfolio__img,
+  .scholarship__img,
+  .advantages__title {
+    display: none;
+  }
+  .advantages__top,
+  .advantages__bot {
+    display: flex;
+    flex-flow: row wrap
+  }
+  .bot__training {
+    margin: 0 -35px 40px 0;
+    width: 50%
+  }
+  .bot__portfolio{
+    padding-bottom: 120px;
+    width: 50%;
+  }
+  .top__employment {
+    margin-bottom: 40px;
+    width: 50%;
+    margin-left: -60px
+  }
+  .top__scholarship {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+  .training__info {
+    margin-left: -20px
+  }
+  .advantages__tit {
+    display: flex;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 120px 0 0 20px
+  }
+  .advantages {
+    box-sizing: border-box;
+    padding-left: 75px
+  }
+  .employment__description {
+    width: 230px;
+  }
+  .advantages__top {
+    margin-bottom:
+  }
+}
+@media screen and (max-width:767px){
+  .scholarship__description br,
+  .employment__description br,
+  .training__description br,
+  .portfolio__description br{
+      display: block;
+  }
+  .scholarship__description,
+  .training__description,
+  .employment__description,
+  .portfolio__description {
+    width: 100%
+  }
+  .advantages__top {
+    display: block;
+  }
+  .advantages__bot {
+    display: block
+  }
+  .advantages {
+    padding-left: 88px
+  }
+  .top__employment {
+    margin-left: 0
+  }
+  .training__info {
+    margin-left: 0
+  }
+  .scholarship__tit, .portfolio__tit, .employment__tit, .training__tit {
+
+    width: 280px;
+}
+}
+@media screen and (max-width: 500px){
+  .scholarship__description br,
+  .employment__description br,
+  .training__description br,
+  .portfolio__description br{
+      display: none;
+  }
+  .none{
+    display: block !important;
+  }
+  .scholarship__description,
+  .employment__description,
+  .training__description,
+  .portfolio__description{
+      width: 245px
+  }
+  .advantages {
+    padding-left: 0
+  }
+}
+@media screen and (max-width: 350px) {
+  .portfolio__info,
+  .employment__info,
+  .training__info,
+  .scholarship__info {
+    width: 300px
+  }
+
+  }

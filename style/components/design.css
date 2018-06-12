@@ -1,0 +1,297 @@
+.design {
+  width: 100%;
+  background-color: #ee543d;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.design__main {
+  width: 1440px;
+  background-color: #ee543d;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+  .design__info {
+    width: 422px;
+    margin-left:100px
+  }
+    .design__title{
+      font-family: 'Roboto Slab', serif;
+      color:  #ffffff;
+      font-size: 48px;
+      font-weight: 400;
+      padding-top: 180px;
+      margin-bottom: 28px;
+      width: 430px;
+      }
+    .design__job{
+      font-family: 'Roboto Slab', serif;
+      color:  #fed75e;
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 25px
+    }
+    .design__description {
+      font-family: 'Open Sans', sans-serif;
+      color:  #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 56px;
+      width: 320px;
+    }
+    .design__author {
+     font-family: 'Roboto Slab', serif;
+      color:  #fec730;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 23.987px;
+      margin-bottom: 25px
+      }
+      .design__author_tit {
+        font-family: 'Open Sans', sans-serif;
+        color:  #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.987px;
+        width: 310px;
+      }
+      .design__author_title {
+        display: flex;
+        margin-bottom: 35px
+      }
+      .design__author_description {
+        display: flex;
+      }
+      .design__author_desc {
+        font-family: 'Open Sans', sans-serif;
+        color:  #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.987px;
+        width: 310px;
+      }
+      .tir {
+        background-color:  #fec730;
+        width: 12px;
+        height: 3px;
+        margin: 10px 20px 0 0
+      }
+      .design__link {
+        margin-top: 149px;
+        display: flex;
+        margin-bottom: 60px
+      }
+        .design__link_img {
+          margin-right: 20px;
+          cursor: pointer;
+        }
+    .design__border_cloud {
+      position: relative;
+      width: 350px;
+      margin: 90px 0 0 -100px
+    }
+
+    .design__border_img {
+      position: absolute;
+      top: 48px;
+      left: 46px;
+    }
+      .design__border_text {
+        font-family: 'Roboto Slab', serif;
+        color:  #ffffff;
+        font-size: 21.99px;
+        font-weight: 300;
+        width: 220px;
+        margin: auto 10px  ;
+        position: absolute;
+        top: 45px;
+        left: 90px
+      }
+  .design__img {
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+  }
+  .b{
+    display: none;
+  }
+  .design__border_img {
+    top: 40px
+  }
+  .design__border_text {
+    line-height: normal;
+    top: 37px !important;
+    width: 260px
+  }
+  @media screen and (max-width: 1250px){
+    .design__border_cloud {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 980px){
+    .design__info {
+      width: 38%;
+    }
+  }
+
+  @media screen and (max-width: 890px){
+    .design__img {
+      margin: 50px 0 0 98px
+    }
+  }
+  @media screen and (max-width: 767px){
+    .design__main {
+      display: block;
+    }
+    .design__info,
+    .design__img {
+      margin: 50px 0 0 98px
+    }
+    .design__author_description {
+      width: 300px;
+    }
+    .design__link {
+      margin-top: 50px
+    }
+    .design__author_title {
+      width: 310px
+    }
+  }
+  @media screen and (max-width: 680px){
+
+    .design__job, .design__description, .design__author, .design__author_tit, .design__author_desc{
+      font-size: 20px
+    }
+  }
+  @media screen and (max-width: 575px){
+    .design__job, .design__description, .design__author, .design__author_tit, .design__author_desc {
+    width: 300px;
+    }
+    .designer__author_description,
+    .design__author_title {
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .design__title {
+      width: 200px
+    }
+    .design__info,
+    .design__img {
+      margin: 50px 0 0 20px
+    }
+  }
+@media screen and (max-width: 425px) {
+  .design__info {
+    margin: 0;
+    padding: 30px
+  }
+  .design__img {
+    display: none
+  }
+  .design__title {
+    font-size: 48px
+  }
+  .design__job,
+  .design__description,
+  .design__author,
+  .design__author_tit,
+  .design__author_desc {
+    font-size: 18px;
+    width: 340px
+  }
+  .design__author_title,
+  .design__author_description {
+    width: 300px;
+  }
+  .design__img{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .design__title {
+    margin-top: -60px;
+    padding-top: 120px;
+    width: 200px
+  }
+  .design__img img {
+    width: 333px;
+    margin-bottom: -65px;
+  }
+  .design__img {
+    margin-left: 44px;
+    width: 50%
+  }
+  .design {
+    padding: 50px 0 0
+  }
+  .design__main{
+    width: 100%
+  }
+}
+@media screen and (max-width: 380px){
+  .design__job,
+  .design__description,
+  .design__author,
+  .design__author_tit,
+  .design__author_desc {
+    width: 305px
+  }
+  .design__img img {
+    width: 279px;
+    height: 519px;
+    margin-bottom: 0
+  }.design__info {
+    padding: 0
+  }
+  .design__title,
+  .design__job,
+  .design__author,
+  .design__description,
+  .design__author_title,
+  .design__author_description,
+  .design__link {
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+  .design__link {
+    margin-top: 80px
+  }
+  .design__job, .design__description, .design__author, .design__author_tit, .design__author_desc {
+    width: 250px;
+}
+}
+@media screen and (max-width: 345px){
+  .design__img {
+    margin-left: 33px
+  }
+}
+@media screen and (max-width: 320px){
+  .design__job,
+  .design__description {
+    width: 272px;
+  }
+  .design__title {
+    margin-top: -60px
+  }
+  .design__link {
+        margin-top: 50px;
+  }
+  .design__author_tit,
+  .design__author_description {
+    width: 300px;
+  }
+  .design__img img {
+
+    margin-bottom: 0
+  }
+  .design__img {
+    margin-left: 17px
+  }
+  .design__title, .design__job, .design__author, .design__description, .design__author_title, .design__author_description, .design__link{
+    width: 300px
+  }
+}

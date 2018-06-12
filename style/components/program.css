@@ -1,0 +1,116 @@
+  .program {
+    width: 1440px;
+    margin: 0 auto;
+  }
+    .program__title {
+      font-family: 'Roboto Slab', serif;
+      color:  #292929;
+      font-size: 36px;
+      font-weight: 400;
+      text-align: center;
+      padding-top: 119px;
+      margin-bottom: 21px
+    }
+    .program__description {
+      font-family: 'Open Sans', sans-serif;
+      color:  #9fa3a7;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+      margin: 0 auto 75px;
+    }
+  .non,
+  .no {
+    display: none;
+  }
+  .program__wrapper {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+  }
+    .program__link {
+      width: 290px;
+    }
+      .program__link_img {
+        width: 85px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+        .program__link_img img {
+          width: 100%;
+          height: 85px;
+        }
+        .program__link_title {
+          font-family: 'Roboto Slab', serif;
+          color:  #292929;
+          font-size: 22px;
+          font-weight: 400;
+          text-align: center;
+          margin-bottom: 80px
+        }
+      .first__column,
+      .second__column {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 98px
+      }
+      .third__column {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 100px;
+        padding: 0 98px
+      }
+@media screen and (max-width:1440px){
+  .program {
+    width: 100%;
+  }
+  .first__column,
+  .second__column {
+    width: 100%;
+    padding: 0 65px
+  }
+  .third__column {
+    padding: 0 65px
+  }
+}
+@media screen and (max-width: 879px){
+  .first__column,
+  .second__column,
+  .third__column {
+    justify-content: center;
+  }
+  .program__link {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 600px){
+  .program__description {
+    padding: 0 20px
+  }
+  .program__description br {
+    display: none;
+  }
+  .non {
+    display: block !important;
+  }
+  .program__link {
+    width: 100%;
+  }
+  .second__column,
+  .third__column {
+    display: none
+  }
+  .no {
+    display: block
+  }
+}
+@media screen and (max-width: 425px){
+  .program__link {
+    margin: 0
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-with: 1024px) {
+  .dg-widget-link {
+    width: 1024px;
+  }
+}
